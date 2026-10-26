@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:paddingBottom="18dp"
+            android:textSize="14sp"
+            android:text="..." />
+
+        <Button android:id="@+id/btnPerms" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="1. Location permission do" />
+
+        <Button android:id="@+id/btnAdmin" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="2. Device Admin ON karo" />
+
+        <Button android:id="@+id/btnBattery" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="3. Battery restriction hatao" />
+
+        <Button android:id="@+id/btnStart" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="4. Service START" />
+
+        <Button android:id="@+id/btnBlock" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="5. Uninstall BLOCK (Device Owner chahiye)" />
+
+        <Button android:id="@+id/btnHideIcon" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="6. Launcher icon hide / show" />
+
+        <Button android:id="@+id/btnHideApp" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="7. App list se bhi hide (optional)" />
+
+        <Button android:id="@+id/btnStop" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Service STOP" />
+
+    </LinearLayout>
+</ScrollView>
